@@ -1,10 +1,13 @@
+import { Engine, Render, Runner, Bodies, Composite } from "./node_modules/matter-js/build/matter.js";
+
+
 // module aliases
-var Engine = Matter.Engine,
+/*var Engine = Matter.Engine,
     Render = Matter.Render,
     Runner = Matter.Runner,
     Bodies = Matter.Bodies,
     Composite = Matter.Composite;
-
+*/
 // create an engine
 var engine = Engine.create();
 
